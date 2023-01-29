@@ -7,37 +7,54 @@ const n3 = document.querySelector("[data-tipo='n3']");
 const n4 = document.querySelector("[data-tipo='n4']");
 const n5 = document.querySelector("[data-tipo='n5']");
 
-// const valorDigitado = [select1, select2, select3, select4, select5];
-
-// for(let i = 0; i < valorDigitado.length, i++) {
-    
-
-// }
-
 const select1 = n1.innerHTML;
 const select2 = n2.innerHTML;
 const select3 = n3.innerHTML;
 const select4 = n4.innerHTML;
 const select5 = n5.innerHTML;
 
-const valorObtenido = document.createElement("h1");
+function imprimirTitulo1 () {
+    const valorObtenido = document.createElement("h1");
 valorObtenido.classList.add("calificacion-titulo")
 valorObtenido.textContent = ("You select " + select1 + " of 5.");
-
 padreImput.appendChild(valorObtenido);
-
-
-
-
-n1.addEventListener("click", valorIngresado);
-n2.addEventListener("click", valorIngresado);
-n3.addEventListener("click", valorIngresado);
-n4.addEventListener("click", valorIngresado);
-n5.addEventListener("click", valorIngresado);
-
-function impirmirTitulo1 () {
-    
 } 
+
+function imprimirTitulo2 () {
+    const valorObtenido = document.createElement("h1");
+valorObtenido.classList.add("calificacion-titulo")
+valorObtenido.textContent = ("You select " + select2 + " of 5.");
+padreImput.appendChild(valorObtenido);
+} 
+
+function imprimirTitulo3 () {
+    const valorObtenido = document.createElement("h1");
+valorObtenido.classList.add("calificacion-titulo")
+valorObtenido.textContent = ("You select " + select3 + " of 5.");
+padreImput.appendChild(valorObtenido);
+} 
+
+function imprimirTitulo4 () {
+    const valorObtenido = document.createElement("h1");
+valorObtenido.classList.add("calificacion-titulo")
+valorObtenido.textContent = ("You select " + select4 + " of 5.");
+padreImput.appendChild(valorObtenido);
+} 
+
+function imprimirTitulo5 () {
+    const valorObtenido = document.createElement("h1");
+valorObtenido.classList.add("calificacion-titulo")
+valorObtenido.textContent = ("You select " + select5 + " of 5.");
+padreImput.appendChild(valorObtenido);
+} 
+
+// Escucha de los botones al click
+    // n1.addEventListener("click", valorIngresado);
+    // n2.addEventListener("click", valorIngresado);
+    // n3.addEventListener("click", valorIngresado);
+    // n4.addEventListener("click", valorIngresado);
+    // n5.addEventListener("click", valorIngresado);
+
 
 const central = document.querySelector("[data-tipo='div-central']");
 const button = document.querySelector("[data-tipo='button']");
