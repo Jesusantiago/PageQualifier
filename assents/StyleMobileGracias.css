@@ -21,6 +21,15 @@ align-items: center;
     font-size: 2rem;
 }
 
+.calificacion-titulo{
+    color: var(--color-Orange);
+    background-color: rgb(45, 54, 65);
+    padding: 0.9rem 1.4rem;
+    border-radius: 2rem;
+    
+    
+}
+
 .parrafo-gracias{
     text-align: center;
     font-weight: lighter;
