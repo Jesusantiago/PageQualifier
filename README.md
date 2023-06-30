@@ -10,4 +10,4 @@
 
 📲 https://www.linkedin.com/in/jesuscsantiago/
 
-📂 Link para ver el resultado: 
+📂 Link para ver el resultado: https://jesusantiago.github.io/calificativo/
