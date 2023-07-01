@@ -42,7 +42,7 @@
 .div-icon{
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url(/referencias/interactive-rating-component-main/images/icon-star.svg);
+  background-image: url(../referencias/images/icon-star.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
