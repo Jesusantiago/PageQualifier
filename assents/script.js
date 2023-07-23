@@ -4,10 +4,17 @@ const actualRating = document.querySelector(".rating")
 
 n1.forEach((numero) => {
     numero.addEventListener("click", (e) => {
+        remover();
         actualRating.innerHTML = numero.innerHTML;
-        numero.classList.toggle("back")
+        e.target.classList.add("back")
     })
 })
+
+const remover = () =>{
+    n1.forEach(btn=>{
+        btn.classList.remove("back")
+    })
+}
 
 
 const central = document.querySelector("[data-tipo='div-central']");
